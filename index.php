@@ -2,7 +2,7 @@
 session_start();
 
 if ($_SESSION['user']) {
-    header('Location: /cards.php');
+    header('Location: /cards.html');
 }
 
 ?>
